@@ -139,7 +139,7 @@ nav {
 /* Hero Section */
 .hero {
   background-color: #f0f8ff;
-  padding: 80px 0;
+  padding: 20px 0;
   text-align: center;
   position: relative;
   overflow: hidden; /* Hide animation overflow */
@@ -151,25 +151,25 @@ nav {
 }
 
 .profile-img {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   animation: fadeIn 1s ease-in-out; /* Fade-in animation */
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #222;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   animation: slideInDown 1s ease-in-out; /* Slide-in animation */
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #555;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   animation: fadeIn 1s ease-in-out 0.5s; /* Delay the fade-in */
 }
 
@@ -195,7 +195,7 @@ nav {
 
 /* About Section */
 .about {
-  padding: 60px 0;
+  padding: 30px 0;
   background-color: #fff;
 }
 
@@ -213,7 +213,7 @@ nav {
 }
 
 .about-text h3 {
-  margin-top: 20px;
+  margin-top: 10px;
   color: #222;
 }
 
@@ -233,7 +233,7 @@ nav {
 }
 
 .about-image {
-  flex: 1 1 400px;
+  flex: 1 1 300px;
   text-align: center;
 }
 
@@ -246,7 +246,7 @@ nav {
 
 /* Services Section */
 .services {
-  padding: 60px 0;
+  padding: 30px 0;
   background-color: #f4f4f4;
 }
 
@@ -254,7 +254,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .service-card {
@@ -348,7 +348,7 @@ nav {
 
 /* Footer */
 footer {
-  background-color: #333;
+  background-color: #8b8e8d86;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -362,7 +362,7 @@ footer {
 }
 
 .footer-social {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .footer-social a {
