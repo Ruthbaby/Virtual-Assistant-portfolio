@@ -38,7 +38,7 @@ ul {
 }
 
 .section-title h2 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #222;
   margin-bottom: 10px;
 }
@@ -160,7 +160,7 @@ nav {
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #222;
   margin-bottom: 10px;
   animation: slideInDown 1s ease-in-out; /* Slide-in animation */
@@ -229,16 +229,16 @@ nav {
 
 .about-text li i {
   margin-right: 10px;
-  color: #007bff;
+  color: #000;
 }
 
 .about-image {
-  flex: 1 1 300px;
+  flex: 1 1 200px;
   text-align: center;
 }
 
 .about-image img {
-  max-width: 100%;
+  max-width: 82%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -250,6 +250,13 @@ nav {
   background-color: #f4f4f4;
 }
 
+span {
+  color: #000;
+  font-weight: bold;
+  font-size: larger;
+  margin-right: 1px;
+  /* border-radius: 50%; */
+}
 .services-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -277,13 +284,12 @@ hr {
   
 }
 .experience-container i {
- color: #007bff;
+ color: #000;
  margin-right: 10px;
 }
 /* Contact Section */
 .contact {
-  margin: 30px 0;
-  padding: 60px 0;
+  padding: 20px 0;
   background-color: #7facd7;
 }
 
@@ -291,13 +297,13 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start;
-  /* margin-top: 30px; */
-  margin: 30px 30px 0;
+  align-items:start;
+  margin: 0px 190px 0 190px;
+  /* border: solid red; */
 }
 
 .contact-form {
-  flex: 1 1 100px;
+  flex: 1 1 200px;
   padding-right: 10px;
 }
 
@@ -311,6 +317,7 @@ hr {
   color: #222;
   font-weight: 400;
   margin: 0 30px;
+  /* border: solid green; */
 }
 
 .contact-form input,
@@ -337,11 +344,13 @@ hr {
 
 .contact-info {
   flex: 1 1 100px;
-  padding-left: 20px;
+  /* max-height: auto; */
+  max-width: 50%;
+  padding-left: 40px;
   background-color: #fff;
   border-radius: 10px;
   padding: 10px;
-  margin-top: 19px;
+  margin-top: 18px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -354,14 +363,14 @@ hr {
 
 .contact-info i {
   margin-right: 10px;
-  color: #007bff;
+  color: #001;
   font-size: 1.2rem;
   
 }
 
 /* Footer */
 footer {
-  background-color: #8b8e8d86;
+  background-color: #14141486;
   color: #fff;
   padding: 20px;
   text-align: center;
